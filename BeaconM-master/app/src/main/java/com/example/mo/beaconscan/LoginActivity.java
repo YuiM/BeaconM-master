@@ -77,7 +77,7 @@ public class LoginActivity extends Activity implements LoaderCallbacks<Cursor> {
         NCMB.initialize(this, "06b1a387b9a116004ae9041a259b8779eb8b9bac272897e16ffe048a72045d60","30b5ef4cec728f2e5df31eecf70939bb80356d344ddc2743c7c9b0edf58ea598");
         NCMB.enableResponseValidation(true);
 
-
+        int s;
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
@@ -272,7 +272,7 @@ public class LoginActivity extends Activity implements LoaderCallbacks<Cursor> {
 
         private final String mEmail;
         private final String mPassword;
-
+        String sss;
         //日付を取得
         SimpleDateFormat msdf1 = new SimpleDateFormat("yyyy/MM/dd");
         //午前、午後を取得
