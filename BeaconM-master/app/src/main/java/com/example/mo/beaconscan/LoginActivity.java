@@ -8,9 +8,9 @@ import android.app.LoaderManager.LoaderCallbacks;
 import android.content.ContentResolver;
 import android.content.CursorLoader;
 import android.content.Loader;
-import android.database.Cursor;
+//import android.database.Cursor;
 import android.net.Uri;
-import android.os.AsyncTask;
+//import android.os.AsyncTask;
 
 import android.os.Build;
 import android.os.Bundle;
